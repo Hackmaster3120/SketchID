@@ -1,0 +1,26 @@
+@keyframes yeet{
+    from{box-shadow: 10px 10px 10px red;}
+    to{box-shadow: 10px 10px 10px yellow;}
+}
+body{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+#showSketchs{
+    float: right;
+}
+p{
+    font-size: x-large;
+}
+h1{
+    background-color: red;
+}
+canvas{
+    border: 2px solid royalblue;
+    border-radius: 50px;
+    margin-top: 100px;
+    animation-name: yeet;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
